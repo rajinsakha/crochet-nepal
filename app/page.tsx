@@ -86,7 +86,7 @@ export default function Home() {
             <motion.li className="mb-2" variants={itemVariants}>
               DM us with the product name and any customization requests
             </motion.li>
-            <motion.li variants={itemVariants}>We'll guide you through the ordering process</motion.li>
+            <motion.li variants={itemVariants}>We&apos;ll guide you through the ordering process</motion.li>
           </motion.ol>
         </div>
       </motion.section>
@@ -156,7 +156,7 @@ export default function Home() {
                   ))}
                 </div>
                 <p className="text-gray-600 mb-4 text-sm md:text-base">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet."
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
                 </p>
                 <p className="font-semibold text-sm md:text-base">- Happy Customer {testimonial}</p>
               </motion.div>
